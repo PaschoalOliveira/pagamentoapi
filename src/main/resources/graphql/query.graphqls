@@ -1,0 +1,12 @@
+type Pagamento{
+	 id:String
+	 cpf:String
+	 valor:String	
+}
+
+type Query{
+
+	helloWorld:String
+	pagamento(a:String):Pagamento
+	pagamentos:[Pagamento]
+}
